@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Feedback from './components/Feedback/Feedback'
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello 2</h2>
+     <Feedback />
     </div>
   );
 }
